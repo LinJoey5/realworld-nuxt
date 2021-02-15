@@ -6,46 +6,38 @@
       {
         "path": "",
         "name": "home",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\home",
-        "_name": "_3c40048f"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\home"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login",
-        "_name": "_4bf8d5b9"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login",
-        "_name": "_4bf8d5b9"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\profile",
-        "_name": "_0a411bf9"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\profile"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\settings",
-        "_name": "_61bb185a"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\settings"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\editor",
-        "_name": "_2696051d"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\editor"
       },
       {
         "path": "/article/:slug",
         "name": "articleIndex",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\article",
-        "_name": "_1de94174"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\article"
       }
-    ],
-    "_name": "_3264deda"
+    ]
   }
 ]
