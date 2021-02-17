@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-06 22:08:25
- * @LastEditTime: 2021-02-13 16:11:46
+ * @LastEditTime: 2021-02-17 17:01:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \realworld-nuxtjs\pages\home\index.vue

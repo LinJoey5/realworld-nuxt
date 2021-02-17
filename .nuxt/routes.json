@@ -6,38 +6,46 @@
       {
         "path": "",
         "name": "home",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\home"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\home",
+        "_name": "_3c40048f"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_4bf8d5b9"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_4bf8d5b9"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\profile"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\profile",
+        "_name": "_0a411bf9"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\settings"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\settings",
+        "_name": "_61bb185a"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\editor"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\editor",
+        "_name": "_2696051d"
       },
       {
         "path": "/article/:slug",
         "name": "articleIndex",
-        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\article"
+        "component": "C:\\\\Users\\\\qiaon\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\article",
+        "_name": "_1de94174"
       }
-    ]
+    ],
+    "_name": "_3264deda"
   }
 ]

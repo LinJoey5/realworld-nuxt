@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-14 20:15:58
- * @LastEditTime: 2021-02-14 20:35:39
+ * @LastEditTime: 2021-02-17 15:13:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \realworld-nuxtjs\pages\article\components\article-comment.vue
@@ -14,11 +14,12 @@
           class="form-control"
           placeholder="Write a comment..."
           rows="3"
+          v-model="commentText"
         ></textarea>
       </div>
       <div class="card-footer">
-        <img src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
-        <button class="btn btn-sm btn-primary">Post Comment</button>
+        <img src="https://avatars.githubusercontent.com/u/18069061?s=400&u=c2a8dc6153f709a2b1ad2a5669410d4b066a8596&v=4" class="comment-author-img" />
+        <button class="btn btn-sm btn-primary" @click="submit">Post Comment</button>
       </div>
     </form>
 
@@ -60,7 +61,8 @@
 </template>
 
 <script>
-import { getComments } from "@/api/article";
+import { getComments, postComments } from "@/api/article";
+import { mapState } from "vuex";
 export default {
   name: "articleComments",
   props: {
@@ -72,13 +74,27 @@ export default {
   data() {
     return {
       comments: [],
+      commentText: ''
     };
+  },
+  computed: {
+    ...mapState(["user"]),
   },
   // 不需要SEO 直接走客户端渲染
   async mounted() {
     const { data } = await getComments(this.article.slug);
     this.comments = data.comments;
   },
+  methods: {
+    async submit() {
+      const params= {
+        body: this.commentText
+      }
+      const { data } = await postComments(this.article.slug,params)
+      debugger
+      console.log(data)
+    }
+  }
 };
 </script>
 

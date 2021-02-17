@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-06 21:53:10
- * @LastEditTime: 2021-02-10 14:50:17
+ * @LastEditTime: 2021-02-17 17:37:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \realworld-nuxtjs\pages\layout\index.vue
@@ -22,7 +22,11 @@
           <template v-if="user">
             <li class="nav-item">
               <!-- <a class="nav-link" href="">  </a> -->
-              <nuxt-link class="nav-link" to="/editor">
+              <nuxt-link
+                class="nav-link"
+                exact
+                to="/editor/"
+              >
                 <i class="ion-compose"></i>&nbsp;New Post
               </nuxt-link>
             </li>
@@ -30,7 +34,7 @@
               <!-- <a class="nav-link" href="">
               <i class="ion-gear-a"></i>&nbsp;Settings
             </a> -->
-              <nuxt-link class="nav-link" to="/settings">
+              <nuxt-link class="nav-link" exact to="/settings">
                 <i class="ion-compose"></i>&nbsp;Settings
               </nuxt-link>
             </li>
@@ -41,7 +45,7 @@
                   src="https://avatars.githubusercontent.com/u/18069061?s=400&u=c2a8dc6153f709a2b1ad2a5669410d4b066a8596&v=4"
                   alt=""
                 />
-                {{user.username}}
+                {{ user.username }}
               </nuxt-link>
             </li>
           </template>

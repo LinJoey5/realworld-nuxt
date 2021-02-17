@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-06 21:57:29
- * @LastEditTime: 2021-02-14 21:51:19
+ * @LastEditTime: 2021-02-17 17:38:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \realworld-nuxtjs\nuxt.config.js

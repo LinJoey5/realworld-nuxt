@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-10 16:03:14
- * @LastEditTime: 2021-02-14 20:20:48
+ * @LastEditTime: 2021-02-17 17:50:27
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \realworld-nuxtjs\api\article.js
@@ -55,5 +55,32 @@ export const getComments = slug => {
   return request({
     method: 'GET',
     url: `/api/articles/${slug}/comments`
+  })
+}
+
+// 发布评论
+// POST /api/articles/:slug/comments
+export const postComments = (slug, data) => {
+  return request({
+    method: 'POST',
+    url: `/api/articles/${slug}/comments`,
+    data
+  })
+}
+
+// 发布文章
+export const createArticle = data => {
+  return request({
+    method: 'POST',
+    url: `/api/articles`,
+    data
+  })
+}
+
+// 删除文章
+export const deleteArticle = slug => {
+  return request({
+    method: 'DELETE',
+    url: `/api/articles/${slug}`,
   })
 }

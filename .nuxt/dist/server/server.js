@@ -1593,19 +1593,19 @@ if (false) {}
 
 
 
-const _3264deda = () => interopDefault(__webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, 32)));
+const _3264deda = () => interopDefault(__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 32)));
 
-const _3c40048f = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 30)));
+const _3c40048f = () => interopDefault(__webpack_require__.e(/* import() */ 4).then(__webpack_require__.bind(null, 31)));
 
-const _4bf8d5b9 = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 31)));
+const _4bf8d5b9 = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 33)));
 
-const _0a411bf9 = () => interopDefault(__webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 33)));
+const _0a411bf9 = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 34)));
 
-const _61bb185a = () => interopDefault(__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(null, 34)));
+const _61bb185a = () => interopDefault(__webpack_require__.e(/* import() */ 6).then(__webpack_require__.bind(null, 35)));
 
-const _2696051d = () => interopDefault(__webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 35)));
+const _2696051d = () => interopDefault(__webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, 36)));
 
-const _1de94174 = () => interopDefault(__webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, 29))); // TODO: remove in Nuxt 3
+const _1de94174 = () => interopDefault(__webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, 30))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
