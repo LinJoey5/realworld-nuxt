@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-06 22:08:25
- * @LastEditTime: 2021-02-17 17:01:53
+ * @LastEditTime: 2021-02-18 22:30:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \realworld-nuxtjs\pages\home\index.vue
@@ -10,8 +10,8 @@
   <div class="home-page">
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">conduit</h1>
-        <p>A place to share your knowledge.</p>
+        <h1 class="logo-font">slef_conduit</h1>
+        <p>A practice DEMO about Nuxtjs</p>
       </div>
     </div>
 
